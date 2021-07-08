@@ -1,0 +1,121 @@
+.rightbar {
+  flex: 3.5;
+  height: 100vh;
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+  margin-left: 20px;
+}
+
+/*we are using webkits for sidebar scroll */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: honeydew;
+}
+::-webkit-slider-thumb {
+  background: gray;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+.birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.rightbarAdd {
+  width: 100%;
+
+  border-radius: 10px;
+  margin: 30px 0;
+  object-fit: contain;
+}
+.rightbarTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rightbarFriendList {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.rightbarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rightbarProfileImgContainer {
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.rightbarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.rightbarUserName {
+  font-size: 14px;
+  font-weight: bold;
+}
+.rightbarOnline {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  border: 2px solid white;
+}
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rightbarInfo {
+  margin-bottom: 30;
+}
+.rightbarInfoItems {
+  margin-bottom: 10px;
+}
+.rightbarInfoKey {
+  font-weight: bold;
+}
+.rightbarInfoValue {
+  margin-left: 10px;
+}
+
+.rightbarFollowFriend {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.rightbarFollowImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rightbarFollowFriend {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

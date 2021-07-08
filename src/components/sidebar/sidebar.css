@@ -1,0 +1,55 @@
+.sidebar {
+  flex: 2.5;
+  height: 100vh;
+  position: sticky;
+  overflow-y: scroll;
+  top: 50px;
+  margin-right: 10px;
+}
+/*we are using webkits for sidebar scroll */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: honeydew;
+}
+::-webkit-slider-thumb {
+  background: gray;
+}
+
+.sidebarWrapper {
+  padding: 10px;
+  height: 200px;
+}
+.sidebarList {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+.sideListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sidebarIcon {
+  margin-right: 15px;
+}
+/* button */
+.sidebarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: Bold;
+}
+.sidebarHr {
+  margin: 20px 0;
+}
+.sidebarCloseFriend {
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.sideFriendName {
+  margin-left: 15px;
+}
